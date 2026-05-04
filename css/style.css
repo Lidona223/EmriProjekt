@@ -1,0 +1,39 @@
+:root{
+    --primary-color:aqua;
+    --secondary-color:aqua;
+    --text-color:black;
+    --font-family: Arial;
+
+
+}
+
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.5;
+    font-size: 1.5 em;
+font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand > img{
+    width: 50px;
+    height: 50px;
+}
+.navbar-brand{
+    color:aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    background-color:aqua;
+}
+.btn.primary{
+    background-color: aqua;
+    border-color: aqua;
+}
+#alert{
+    display: none;
+
+}
